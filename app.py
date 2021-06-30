@@ -89,7 +89,7 @@ def delete_message(message_id):
     select *
     from messages
     where messages_id = {message_id}
-    and (sender_id = {current_identity['user_id']} or receiver_id = {current_identity['user_id']}
+    and (sender_id = {current_identity['user_id']} or receiver_id = {current_identity['user_id']})
     ''')
     if len(df) > 0:
         db.commit_to_db(f'delete from messages where messages_id = {message_id}')
