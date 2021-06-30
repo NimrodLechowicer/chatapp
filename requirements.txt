@@ -4,6 +4,6 @@ scipy==0.14.0
 psycopg2==2.9.1
 Flask_JWT==0.3.2
 numpy==1.6.2
-pandas==0.8.1
 Flask==1.1.1
+pandas
 gunicorn
