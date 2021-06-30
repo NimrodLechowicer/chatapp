@@ -1,9 +1,9 @@
 Werkzeug==1.0.0
+numpy==1.9.1
+scikit-learn==0.16.1
+scipy==0.14.0
 psycopg2==2.9.1
 Flask_JWT==0.3.2
 pandas==1.0.1
 Flask==1.1.1
-numpy==1.9.1
-scikit-learn==0.16.1
-scipy==0.14.0
 gunicorn
