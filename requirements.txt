@@ -1,8 +1,7 @@
-Werkzeug==1.0.0
-scipy==0.14.0
-psycopg2==2.9.1
-Flask_JWT==0.3.2
 numpy==1.6.2
 Flask==1.1.1
 pandas
+Werkzeug==1.0.0
+psycopg2==2.9.1
+Flask_JWT==0.3.2
 gunicorn
