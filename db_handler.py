@@ -18,7 +18,7 @@ class Db:
             cur.execute(sql)
             con.commit()
 
-    def get_all_messages_for_user(self, user_id: int, only_unread: bool, last_message=True):
+    def get_all_messages_for_user(self, user_id: int, only_unread: bool, last_message=False):
         sql = f'''
         select messages_id,
                messages_content,
